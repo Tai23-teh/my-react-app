@@ -1,0 +1,68 @@
+.icon{
+    width: 40px;
+  height: 40px;
+  background: #2a323d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: orange;
+  margin-bottom: 20px; 
+  
+}
+
+.submit{
+    width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: orange;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #ffffff;
+}
+
+.body{
+    font-family: Arial, sans serrif;
+    margin:0;
+    background-color: #1e1e2a;
+    padding-bottom: 10px;
+}
+.rating {
+display:flex;
+gap: 20px;
+flex-direction: row;
+font-size: 50px;
+margin-left: 10px;
+}
+
+.rating i {
+cursor: pointer; 
+  transition: color 0.2s;
+}
+  
+
+.rating i:hover {
+  color: #f39c12; 
+}
+.rating i:visited{
+  color: #ffffff; 
+}
+a:visited {
+  color: #ffffff; 
+}
+p {
+  color: #9ca3af;
+  font-size: 14px;
+  line-height: 1.5;
+}
+h2 {
+  margin: 0 0 10px;
+}
+.active {
+  color: white;
+}
+
